@@ -1,11 +1,12 @@
 {
     "name": "mtgox-ticker",
-    "description": "Simple MtGox ticker",
+    "description": "Simple MtGox ticker. Thanks to http://mtgox.com for sponsoring this project!",
     "keywords": [],
     "author": "Joric",
     "contributors": [],
     "license": "MPL 2.0",
     "version": "1.0.0",
+    "homepage": "https://github.com/joric/mtgox-ticker",
     "id": "mtgox-ticker",
     "preferences" : [
         {
