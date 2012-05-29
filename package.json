@@ -1,0 +1,10 @@
+{
+    "name": "mtgox-ticker",
+    "description": "Simple MtGox ticker",
+    "keywords": [],
+    "author": "Joric",
+    "contributors": [],
+    "license": "MPL 2.0",
+    "version": "1.0.0",
+    "id": "mtgox-ticker"
+}
