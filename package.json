@@ -1,19 +1,19 @@
 {
+    "id": "mtgox-ticker",
     "name": "mtgox-ticker",
-    "description": "Simple MtGox ticker. Thanks to http://mtgox.com for sponsoring this project!",
+    "fullName": "MtGox Ticker", 
+    "description": "Simple MtGox Ticker. Thanks to mtgox.com for sponsoring this project!",
     "keywords": [],
     "author": "Joric",
     "contributors": [],
+    "keywords": ["mtgox", "bitcoin"],
     "license": "MPL 2.0",
     "version": "1.0.0",
     "homepage": "https://github.com/joric/mtgox-ticker",
-    "id": "mtgox-ticker",
     "preferences" : [
-        {
-            "type": "string",
-            "name": "currency",
-            "value": "USD",
-            "title": "Currency"
-        }
+        {"type": "string", "name": "currency", "value": "USD", "title": "Currency"},
+        {"type": "bool", "name": "icon", "value": true, "title": "Display Icon", "label":"On"},
+        {"type": "bool", "name": "caption", "value": false, "title": "Display Last Price"},
+        {"type": "control", "name": "update",  "title": "", "label": "Update"}
     ]
 }
