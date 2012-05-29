@@ -1,11 +1,5 @@
-this.addEventListener('click', function(event) {
-
-    if(event.button == 0 && event.shiftKey == false)
-        self.port.emit('left-click');
-
-    if(event.button == 2 || (event.button == 0 && event.shiftKey == true))
-        self.port.emit('right-click');
-
-    event.preventDefault();
-
-}, true);
+self.port.on('update', function(param) {
+    var widget = document.getElementById("mtgox-ticker");
+    widget.innerHTML = param.content;
+    self.port.emit('width', {width: widget.offsetWidth, content: param.content});
+});

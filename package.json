@@ -12,8 +12,8 @@
     "homepage": "https://github.com/joric/mtgox-ticker",
     "preferences" : [
         {"type": "string", "name": "currency", "value": "USD", "title": "Currency"},
-        {"type": "bool", "name": "icon", "value": true, "title": "Display Icon", "label":"On"},
-        {"type": "bool", "name": "caption", "value": false, "title": "Display Last Price"},
+        {"type": "bool", "name": "icon", "value": true, "title": "Display Icon"},
+        {"type": "bool", "name": "caption", "value": true, "title": "Display Last Price"},
         {"type": "control", "name": "update",  "title": "", "label": "Update"}
     ]
 }
