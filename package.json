@@ -1,9 +1,9 @@
 {
     "id": "mtgox-ticker",
+    "icon": "data/icon32.png",
     "name": "mtgox-ticker",
     "fullName": "MtGox Ticker", 
-    "description": "Simple MtGox Ticker. Thanks to mtgox.com for sponsoring this project!",
-    "keywords": [],
+    "description": "Simple MtGox ticker. Thanks to mtgox.com for sponsoring this project!",
     "author": "Joric",
     "contributors": [],
     "keywords": ["mtgox", "bitcoin", "ticker"],
