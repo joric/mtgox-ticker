@@ -1,5 +1,11 @@
 self.port.on('update', function(param) {
-    var div = document.getElementById("mtgox-ticker");
+    
+    div = document.firstChild;
+
+    console.log(div.offsetWidth)
+
+    /*
+    var div = document.getElementById('mtgox-ticker');
 
     while (div.firstChild)
         div.removeChild(div.firstChild);
@@ -13,10 +19,11 @@ self.port.on('update', function(param) {
     if (param.text) {
         var span = document.createElement('span');
         span.setAttribute('id', 'last');
-        text = document.createTextNode(param.text);
+        text = document.createTextNode((param.icon ? ' ':'') + param.text);
         span.appendChild(text);
         div.appendChild(span);
     }
+*/
+    self.port.emit('resize', div.offsetWidth, div.offsetHeight);
 
-    self.port.emit('width', {width: div.offsetWidth, content: div.innerHTML});
 });

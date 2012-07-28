@@ -3,17 +3,18 @@
     "icon": "data/icon32.png",
     "name": "mtgox-ticker",
     "fullName": "MtGox Ticker", 
-    "description": "Simple MtGox ticker. Thanks to mtgox.com for sponsoring this project!",
+    "description": "Simple MtGox Ticker. Thanks to mtgox.com for sponsoring this project!",
+    "keywords": [],
     "author": "Joric",
     "contributors": [],
     "keywords": ["mtgox", "bitcoin", "ticker"],
-    "license": "MPL 2.0",
+    "license": "MIT/X11",
     "version": "1.0.0",
     "homepage": "https://github.com/joric/mtgox-ticker",
     "preferences" : [
         {"type": "string", "name": "currency", "value": "USD", "title": "Currency"},
         {"type": "bool", "name": "icon", "value": true, "title": "Display Icon"},
         {"type": "bool", "name": "caption", "value": true, "title": "Display Last Price"},
-        {"type": "control", "name": "update",  "title": "", "label": "Update"}
+        {"type": "control", "name": "update",  "title": "", "label": "Reload"}
     ]
 }
